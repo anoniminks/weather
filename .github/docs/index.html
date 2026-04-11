@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+const SUB_URL = "https://sub.madvpn.cc/X5JTqKygK6kJ4ER7";
+const HWID = "eecb123e7fc2f2b6";
+const USER_AGENT = "Happ/3.17.0/Android/17756505247711753599";
+
+fetch(SUB_URL, {
+    headers: {
+        "User-Agent": USER_AGENT,
+        "X-Android-ID": HWID,
+        "X-HWID": HWID,
+        "X-Device-Id": HWID
+    }
+})
+.then(res => res.text())
+.then(encryptedJson => {
+    // Выводим зашифрованный JSON как есть (не расшифровывая)
+    document.body.innerText = encryptedJson;
+});
+</script>
+</body>
+</html>
