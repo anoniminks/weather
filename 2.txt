@@ -1,0 +1,5 @@
+#profile-title:Sayori Bypass
+#subscription-auto-update-open-enable: 1
+#profile-update-interval: 2
+#subscription-userinfo: upload=0; download=0; total=99999999990; expire=1827791999
+https://raw.githubusercontent.com/anoniminks/wckamyjh/refs/heads/main/1.txt
