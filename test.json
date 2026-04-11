@@ -1,0 +1,140 @@
+Content-Type: application/json
+profile-title: Sayori Bypass
+subscription-auto-update-open-enable: 1
+profile-update-interval: 2
+subscription-userinfo: upload=0; download=0; total=99999999990; expire=1827791999
+{
+  "servers": [
+    {
+      "protocol": "vless",
+      "remark": "🇷🇺 Россия (Ютуб без рекламы)",
+      "address": "ru1.rickandmorty13.shop",
+      "port": 443,
+      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fingerprint": "chrome",
+      "pbk": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+      "sid": "23",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇳🇱 Нидерланды",
+      "address": "ne55.sonicsonic.icu",
+      "port": 443,
+      "uuid": "4296cdd9-30dc-42e4-b66b-5eb5cf779277",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "ne55.sonicsonic.icu",
+      "fingerprint": "chrome",
+      "pbk": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇳🇱 Нидерланды 2",
+      "address": "nl1.rickandmorty13.shop",
+      "port": 443,
+      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "www.apple.com",
+      "fingerprint": "chrome",
+      "pbk": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+      "sid": "23",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇩🇪 Германия #1",
+      "address": "de555.sonicsonic.icu",
+      "port": 443,
+      "uuid": "4296cdd9-30dc-42e4-b66b-5eb5cf779277",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "de555.sonicsonic.icu",
+      "fingerprint": "chrome",
+      "pbk": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇩🇪 Германия #2",
+      "address": "msk.bearbeer.digital",
+      "port": 443,
+      "uuid": "4296cdd9-30dc-42e4-b66b-5eb5cf779277",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "msk.bearbeer.digital",
+      "fingerprint": "chrome",
+      "pbk": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇺🇸 США",
+      "address": "us11.bearbeer.digital",
+      "port": 443,
+      "uuid": "4296cdd9-30dc-42e4-b66b-5eb5cf779277",
+      "encryption": "none",
+      "security": "reality",
+      "sni": "us11.bearbeer.digital",
+      "fingerprint": "qq",
+      "pbk": "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU",
+      "type": "xhttp",
+      "path": "/"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇪🇺 Обход #1",
+      "address": "node10.triwords.online",
+      "port": 443,
+      "uuid": "1728289c-723d-4132-b87b-35e03d91ca18",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "eh.vk.com",
+      "fingerprint": "qq",
+      "pbk": "egmxOUYIfbxh6hRfIm6lA4egQYFOtOIBJ1sijnHXF3c",
+      "sid": "b2f4f1c2dc3f424f",
+      "type": "tcp"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇪🇺 Обход #2",
+      "address": "portal.pushbyte.cc",
+      "port": 3000,
+      "uuid": "b7dedeca-2d71-4f03-b9f0-43bd2aac8ee6",
+      "encryption": "none",
+      "security": "reality",
+      "sni": "api-maps.yandex.ru",
+      "fingerprint": "qq",
+      "pbk": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+      "sid": "4290504c2519791b",
+      "type": "xhttp",
+      "path": "/api/v2/config/sync"
+    },
+    {
+      "protocol": "vless",
+      "remark": "🇪🇺 Обход #3 Только Telegram",
+      "address": "fastcon-tgg.harknmav.fun",
+      "port": 443,
+      "uuid": "50b95deb-6394-46c5-b88a-583e5b3ca7ee",
+      "encryption": "none",
+      "flow": "xtls-rprx-vision",
+      "security": "reality",
+      "sni": "max.ru",
+      "fingerprint": "chrome",
+      "pbk": "PGccrEdFmBaB1rQFJqM-a9jJ1pFsxhUP2sD9KTw5Oz4",
+      "sid": "f69d7af2d5fc5e0c",
+      "type": "tcp"
+    }
+  ]
+    }
