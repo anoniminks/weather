@@ -1,3 +1,9 @@
+HTTP/2 200 
+date: Wed, 24 Nov 2024 10:00:52 GMT
+content-type: application/json
+content-length: 3798
+content-disposition: attachment; filename="configs"
+profile-title: Sayori Bypass 
 [
   {
     "remarks": "🇫🇮 WhiteList #1",
