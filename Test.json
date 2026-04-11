@@ -1,0 +1,356 @@
+[
+  {
+    "dns": {
+      "servers": ["1.1.1.1", "1.0.0.1"],
+      "queryStrategy": "UseIP"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "protocol": ["bittorrent"],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "node13.triwords.online",
+              "port": 443,
+              "users": [
+                {
+                  "id": "1728289c-723d-4132-b87b-35e03d91ca18",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "eh.vk.com",
+            "fingerprint": "safari",
+            "publicKey": "gM9pBUPyHmREgs1n4t45PR7pzOJ6L9ohPvTXaKqD8Xc",
+            "shortId": "fd2f40eefc16c98a"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "🇫🇮 WhiteList #1"
+  },
+  {
+    "dns": {
+      "servers": ["1.1.1.1", "1.0.0.1"],
+      "queryStrategy": "UseIP"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "protocol": ["bittorrent"],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "161.104.105.114",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "fe3f495c-bb16-40d5-bc93-9262e72110eb",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rbc.ru",
+            "fingerprint": "safari",
+            "publicKey": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
+            "shortId": "8ba12e75110b7a9c"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "🇭🇺 WhiteList #2"
+  },
+  {
+    "dns": {
+      "servers": ["1.1.1.1", "1.0.0.1"],
+      "queryStrategy": "UseIP"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "protocol": ["bittorrent"],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "portal.pushbyte.cc",
+              "port": 3000,
+              "users": [
+                {
+                  "id": "b7dedeca-2d71-4f03-b9f0-43bd2aac8ee6",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "xhttpSettings": {
+            "path": "/api/v2/config/sync"
+          },
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "api-maps.yandex.ru",
+            "fingerprint": "safari",
+            "publicKey": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+            "shortId": "4290504c2519791b"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "🇦🇹 WhiteList #3"
+  },
+  {
+    "dns": {
+      "servers": ["1.1.1.1", "1.0.0.1"],
+      "queryStrategy": "UseIP"
+    },
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "protocol": ["bittorrent"],
+          "outboundTag": "direct"
+        }
+      ],
+      "domainMatcher": "hybrid",
+      "domainStrategy": "IPIfNonMatch"
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true,
+          "auth": "noauth"
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        },
+        "sniffing": {
+          "enabled": true,
+          "routeOnly": false,
+          "destOverride": ["http", "tls", "quic"]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "161.104.105.144",
+              "port": 443,
+              "users": [
+                {
+                  "id": "5fb794aa-fc70-4265-b28e-d6b41ddd43de",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rbc.ru",
+            "fingerprint": "safari",
+            "publicKey": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+            "shortId": "dc8109baf0f607ea"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "remarks": "🇩🇪 WhiteList #4"
+  }
+]
