@@ -2,7 +2,6 @@
   {
     "remarks": "🇫🇮 WhiteList #1",
     "hide-settings": true,
-    "meta": { "serverDescription": "Sayori Bypass | Sayori Team | JSON" },
     "dns": { "servers": ["9.9.9.9"], "queryStrategy": "UseIP" },
     "routing": {
       "rules": [{ "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" }],
@@ -28,7 +27,6 @@
   {
     "remarks": "🇭🇺 WhiteList #2",
     "hide-settings": true,
-    "meta": { "serverDescription": "Sayori Bypass | Sayori Team | JSON" },
     "dns": { "servers": ["9.9.9.9"], "queryStrategy": "UseIP" },
     "routing": {
       "rules": [{ "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" }],
@@ -54,7 +52,6 @@
   {
     "remarks": "🇦🇹 WhiteList #3",
     "hide-settings": true,
-    "meta": { "serverDescription": "Sayori Bypass | Sayori Team | JSON" },
     "dns": { "servers": ["9.9.9.9"], "queryStrategy": "UseIP" },
     "routing": {
       "rules": [{ "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" }],
@@ -80,7 +77,6 @@
   {
     "remarks": "🇩🇪 WhiteList #4",
     "hide-settings": true,
-    "meta": { "serverDescription": "Sayori Bypass | Sayori Team | JSON" },
     "dns": { "servers": ["9.9.9.9"], "queryStrategy": "UseIP" },
     "routing": {
       "rules": [{ "type": "field", "protocol": ["bittorrent"], "outboundTag": "direct" }],
