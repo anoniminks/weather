@@ -1,6 +1,6 @@
-Content-Type: application/json
+HTTP/2 200 
+content-type: application/json
 profile-title: Sayori Bypass
-subscription-auto-update-open-enable: 1
 profile-update-interval: 2
 subscription-userinfo: upload=0; download=0; total=99999999990; expire=1827791999
 {
